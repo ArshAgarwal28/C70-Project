@@ -28,7 +28,10 @@ export default class WriteStoryScreen extends React.Component {
 						borderWidth: 2,
 						marginBottom: 25,
 						marginTop: 25,
+						width: 300,
+						height: 35,
 						alignSelf: 'center',
+						textAlign: 'center',
 					}}
 					onChangeText={(text) => {
 						this.setState({
@@ -43,7 +46,10 @@ export default class WriteStoryScreen extends React.Component {
 					style={{
 						borderWidth: 2,
 						marginBottom: 25,
+						width: 300,
+						height: 35,
 						alignSelf: 'center',
+						textAlign: 'center',
 					}}
 					onChangeText={(text) => {
 						this.setState({
